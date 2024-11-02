@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#1F2543"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/img_upload"
+        android:layout_height="wrap_content">
+
+    </ImageView>
+<TextView
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:textSize="20dp"
+    android:textColor="@color/white"
+    android:text="Sign in to Access All Features"
+    android:layout_height="wrap_content">
+
+</TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:text="get more with Banglalink sim"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <EditText
+        android:id="@+id/email_input"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/password_input"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/sign_in_button"
+        android:layout_gravity="center"
+        android:backgroundTint="#313A6C"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Sign In" />
+<Button
+    android:layout_width="300dp"
+    android:id="@+id/continue_without_sign_in_button"
+    android:layout_marginTop="20dp"
+    android:layout_gravity="center"
+    android:backgroundTint="#313A6C"
+    android:text="continue without sign in"
+    android:layout_height="wrap_content">
+
+</Button>
+</LinearLayout>

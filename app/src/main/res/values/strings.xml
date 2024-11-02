@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Toffee_java</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="Home">Home</string>
+    <string name="TV">TV</string>
+    <string name="Upload">Upload</string>
+    <string name="Explore">Explore</string>
+    <string name="My_channel">My Channel</string>
+
+    <style name="DrawerMenuItemTextStyle">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>

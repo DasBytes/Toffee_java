@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#1F2543"
+        android:textColor="#E4C4C4"
+        android:padding="16dp"
+        android:text="আর কত নিচে নামবে দিল্লী ক্যাপিটালস?
+        LSG VS DC ম্যাচ দেখুন রাত ৮টায়"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:background="#1F2543"
+        android:textColor="#E4C4C4"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:padding="16dp"
+        android:text="ঈদের বিশেষ উপহার দিরিলিসের নতুন সিজন।
+
+দেখুন শুধুমাত্র টফি-তে দিরিলিস আরতুগ্রাণ, সিজান ৩।
+"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_marginStart="8dp"
+        android:textColor="#E4C4C4"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#1F2543"
+        android:padding="16dp"
+        android:text="বাতাসে ফুলের সৌরও, আকাশে ভালোবাসার রত
+
+টফি এক্সক্সক্লুসিভ ড্রামা কাঁঠালিচালা' দেখুন এ
+
+"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#1F2543"
+        android:padding="16dp"
+        android:text="কুনাফা যাওয়ার অনেক মুনাফা।
+
+টফি-তে দেখুন সাফওয়ান-এর সাথে নিষ্টিমুখ
+"
+        android:textColor="#E4C4C4"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:textColor="#E4C4C4"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView4"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#1F2543"
+        android:padding="16dp"
+        android:text="বরফি নিয়ে হবে বাড়াবাড়ি!
+
+টয়ো-এত দেখুন সাফওয়ান-এর সাথে মিষ্টিমুখ
+
+21h"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView5"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#1F2543"
+        android:padding="16dp"
+        android:text="জয়ের স্বাদ এরা ভুলে গেছে।
+
+MI vs RCB আচটি দেখুন রাত ৮টা
+
+"
+        android:textColor="#E4C4C4"
+        android:textSize="20sp" />
+
+</LinearLayout>
+</ScrollView>

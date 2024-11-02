@@ -1,0 +1,60 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.assignment7">
+
+    <item
+        android:id="@+id/account"
+        android:title="Account"
+        app:itemTextAppearance="@style/DrawerMenuItemTextStyle"
+        android:icon="@drawable/baseline_account_circle_24"
+         />
+    <item
+        android:id="@+id/toffee_premium"
+        android:title="TOFFEE Premium"
+        app:itemTextAppearance="@style/DrawerMenuItemTextStyle"
+        android:icon="@drawable/baseline_shopping_basket_24"
+    />
+    <item
+        android:id="@+id/refer"
+        android:title="Refer a friend"
+        app:itemTextAppearance="@style/DrawerMenuItemTextStyle"
+        android:icon="@drawable/baseline_person_pin_circle_24"
+       />
+    <item
+        android:id="@+id/redeem"
+        android:title="Redeem Referral code"
+        app:itemTextAppearance="@style/DrawerMenuItemTextStyle"
+        android:icon="@drawable/baseline_book_online_24"
+         />
+    <item
+        android:id="@+id/setting"
+        android:title="Setting "
+        app:itemTextAppearance="@style/DrawerMenuItemTextStyle"
+        android:icon="@drawable/baseline_app_settings_alt_24"
+ />
+    <item
+        android:id="@+id/Darkmode"
+        android:title="Dark mode"
+        app:itemTextAppearance="@style/DrawerMenuItemTextStyle"
+        android:icon="@drawable/baseline_dark_mode_24"
+         />
+    <item
+        android:id="@+id/Faq"
+        android:title="FAQ"
+        app:itemTextAppearance="@style/DrawerMenuItemTextStyle"
+        android:icon="@drawable/baseline_question_mark_24"
+      />
+    <item
+        android:id="@+id/policies"
+        android:title="Policies"
+        app:itemTextAppearance="@style/DrawerMenuItemTextStyle"
+        android:icon="@drawable/baseline_policy_24"
+ />
+    <item
+        android:id="@+id/signout"
+        android:title="Sign out"
+        android:actionLayout="@layout/logo_navdrawer"
+        android:icon="@drawable/baseline_login_24"/>
+
+</menu>

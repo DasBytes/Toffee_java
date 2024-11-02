@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/home2">
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.example.assignment7.rnd.Home"
+        android:label="Toffee"
+        tools:layout="@layout/fragment_home2" />
+
+    <fragment
+        android:id="@+id/explore"
+        android:name="com.example.assignment7.rnd.Explore"
+        android:label="explore"
+        tools:layout="@layout/fragment_explore" />
+    <fragment
+        android:id="@+id/upload"
+        android:name="com.example.assignment7.rnd.upload"
+        android:label="upload"
+        tools:layout="@layout/fragment_upload" />
+    <fragment
+        android:id="@+id/TV"
+        android:name="com.example.assignment7.rnd.TV"
+        android:label="Tv Channel"
+        tools:layout="@layout/fragment_t_v" />
+    <fragment
+        android:id="@+id/my_Channel"
+        android:name="com.example.assignment7.rnd.My_Channel"
+        android:label="my Channel"
+        tools:layout="@layout/fragment_my__channel" />
+</navigation>
